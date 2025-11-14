@@ -1,0 +1,32 @@
+# NVIDIA RAPIDS wheels (needed for cuDF)
+# --extra-index-url https://pypi.nvidia.com
+
+# PyTorch Geometric CUDA-12.6 wheels
+-f https://data.pyg.org/whl/torch-2.6.0+cu126.html
+
+# Core PyTorch stack
+torch
+torchvision
+torchaudio
+
+# GPU dataframe library
+# cudf-cu12          # comes only from the NVIDIA index above
+
+# PyTorch Geometric and compiled extensions
+torch_geometric
+pyg_lib
+torch_scatter
+torch_sparse
+torch_cluster
+torch_spline_conv
+
+# Data / utilities
+rdkit              # use rdkit-pypi if rdkit fails on your platform
+pyarrow
+polaris-lib
+mendeleev
+wandb
+
+# Jupyter support
+jupyter-client
+ipykernel

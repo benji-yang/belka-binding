@@ -1,0 +1,17 @@
+kaggle.json
+*.out
+**/__pycache__/
+**.json
+**.npz
+**.csv
+**.npy
+**.pt
+
+# 5) (Optional) Common editor/IDE caches
+.vscode/
+.idea/
+data/
+preprocessed/
+compressed/
+checkpoint/
+wanlog/
